@@ -1,4 +1,4 @@
-Data Warehouse and Analytics Project, completed by following the instructions "Data with Baraa" YouTube channel. 
+Data Warehouse and Analytics Project, completed by following the instructions from "Data with Baraa" YouTube channel. 
 
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
@@ -8,13 +8,13 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 
 Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+Gold Layer: Houses business-ready data modelled into a star schema required for reporting and analytics.
 📖 Project Overview
 This project involves:
 
 Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
 ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-Data Modeling: Developing fact and dimension tables optimized for analytical queries.
+Data Modelling: Developing fact and dimension tables optimised for analytical queries.
 Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 
@@ -28,7 +28,7 @@ Data Analytics
 Everything is for Free!
 
 Datasets: Access to the project dataset (csv files).
-SQL Server Express: Lightweight server for hosting your SQL database.
+SQL Server Express: A Lightweight server for hosting your SQL database.
 SQL Server Management Studio (SSMS): GUI for managing and interacting with databases.
 Git Repository: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
 DrawIO: Design data architecture, models, flows, and diagrams.
@@ -62,9 +62,9 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
+│   ├── etl.drawio                      # Draw.io file shows all different techniques and methods of ETL
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_catalog.md                 # Catalogue of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
 │   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
